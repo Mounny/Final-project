@@ -1,0 +1,26 @@
+{
+  "name": "contact-list0auth",
+  "version": "1.0.0",
+  "description": "Final project",
+  "main": "index.js",
+  "scripts": {
+    "front":"cd client && npm start",
+    "back": "nodemon server",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+
+  },
+  "author": "Mounir BG",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.7"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.1.0",
+    "concurrently": "^7.5.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
